@@ -1,3 +1,3 @@
-Bryan Min
-Duck
-Hello, world!
+### Bryan Min
+# Favorite animal: Duck
+
