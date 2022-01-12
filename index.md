@@ -1,3 +1,3 @@
-### Bryan Min
-# Favorite animal: Duck
+# Bryan Min
+### Favorite animal: Duck
 
