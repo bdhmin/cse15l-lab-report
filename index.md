@@ -8,6 +8,8 @@ Hello CSE 15L - Winter 2022!
 
 Date: January 12, 2022.
 
+![scsht.png](scsht.png)
+
 ```
 System.out.println("Hello, world!");
 ```
