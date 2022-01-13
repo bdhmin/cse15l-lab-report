@@ -5,15 +5,15 @@
 
 ### 1. Installing VScode
 
-- I navigated to [this link](https://code.visualstudio.com/) and click "Download ...".
+- I navigated to [this link](https://code.visualstudio.com/) and clicked "Download ...".
 - Once I downloaded, followed the steps the installer displayed.
-- Once fully installed, I open VScode:
+- Once fully installed, I opened VScode:
 
 <img width="1397" alt="vscode" src="https://user-images.githubusercontent.com/43192371/149246304-ed28582b-e7e9-43b7-bb06-7420c35526cd.png">
 
 ### 2. Remotely Connecting
 
-- I opened terminal and typed in `ssh cs15lwi22---@ieng6.ucsd.edu` and replaced the '---' with my user account character combination I accessed on https://sdacs.ucsd.edu/~icc/index.php.
+- I opened terminal and typed in `ssh cs15lwi22---@ieng6.ucsd.edu` and replaced the '\-\-\-' with my user account character combination I accessed on https://sdacs.ucsd.edu/~icc/index.php.
 - When prompted for a password, I typed in my password.
 - Then I was logged in to the remote server:
 
