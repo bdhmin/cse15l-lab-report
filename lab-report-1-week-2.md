@@ -13,7 +13,7 @@
 
 ### 2. Remotely Connecting
 
-- I opened terminal and typed in `ssh cs15lwi22---@ieng6.ucsd.edu` Replace the '---' with my user account character combination I accessed on https://sdacs.ucsd.edu/~icc/index.php.
+- I opened terminal and typed in `ssh cs15lwi22---@ieng6.ucsd.edu` and replaced the '---' with my user account character combination I accessed on https://sdacs.ucsd.edu/~icc/index.php.
 - When prompted for a password, I typed in my password.
 - Then I was logged in to the remote server:
 
@@ -28,3 +28,27 @@
 
 ### 4. Moving Files with `scp`
 
+- Calling `scp <filename> cs15lwi22---@ieng6.ucsd.edu:~/` copied the file I included in <filename> into my remote server
+- This prompted me to enter my password which I did.
+  
+<img width="385" alt="Screen Shot 2022-01-12 at 11 21 57 PM" src="https://user-images.githubusercontent.com/43192371/149284017-eed6588d-cf2b-45c9-9372-65dce1394da2.png">
+
+### 5. Setting an SSH Key
+  
+- Called `ssh-keygen` on my client
+- Generated the key in recommended location with no passphrase.
+
+*Already generated SSH key*\
+<img width="551" alt="Screen Shot 2022-01-12 at 11 26 15 PM" src="https://user-images.githubusercontent.com/43192371/149284603-2e0b6323-db90-40ed-9f82-0691c6b78662.png">
+
+### 6. Optimizing Remote Running  
+
+- In ssh server, `mkdir .ssh`
+- In client, `scp /Users/<username>/.ssh/id_rsa.pub cs15lwi22---@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+- Then the next time I log into remote server, I will not have to type in my password.
+  
+<img width="717" alt="Screen Shot 2022-01-12 at 11 34 38 PM" src="https://user-images.githubusercontent.com/43192371/149285710-0bb0ca90-e788-44ff-9e6f-261666a53ead.png">
+
+  
+
+  
