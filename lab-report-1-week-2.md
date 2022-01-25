@@ -22,9 +22,15 @@
 ### 3. Trying Some Commands
 
 - `ls` lists all files and directories in current directory I am in.
+- `ls -a` list all files and directories—including the hidden ones (`.<filename>`)
 - `pwd` displays the current filepath I am in.
+- `cd <directory>` goes to the directory entered
+- `cat <filename>` prints the contents of the file on the terminal
 
 <img width="335" alt="Screen Shot 2022-01-12 at 5 07 44 PM" src="https://user-images.githubusercontent.com/43192371/149247709-78920ced-4cd1-4b6f-99db-9e0261a82291.png">
+<img width="1396" alt="Screen Shot 2022-01-24 at 7 41 56 PM" src="https://user-images.githubusercontent.com/43192371/150906908-3b932a7a-d180-453b-afb7-678cf5a8e317.png">
+<img width="362" alt="Screen Shot 2022-01-24 at 7 48 11 PM" src="https://user-images.githubusercontent.com/43192371/150907442-82fd2355-5333-4289-9339-5a317e27dfea.png">
+
 
 ### 4. Moving Files with `scp`
 
