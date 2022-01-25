@@ -52,8 +52,11 @@
 - In ssh server, `mkdir .ssh`
 - In client, `scp /Users/<username>/.ssh/id_rsa.pub cs15lwi22---@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 - Then the next time I log into remote server, I will not have to type in my password.
+- `ssh cs15lwi22agt@ieng6.ucsd.edu` took only 31 characters to type, whereas before it took much more as I needed to type in my password as well.
+- A method to save time is to completely bypass the requirement to enter the command by using software that allows userse to access remote servers with a click of a button. The app Termius is one example. This saves many many keystrokes as it only takes at most 2 mouse clicks to enter the server.
   
 <img width="717" alt="Screen Shot 2022-01-12 at 11 34 38 PM" src="https://user-images.githubusercontent.com/43192371/149285710-0bb0ca90-e788-44ff-9e6f-261666a53ead.png">
+
 
   
 
