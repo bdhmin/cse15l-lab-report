@@ -1,5 +1,5 @@
 # Lab Report 2
 
-Bryan Min\
-CSE 15L
+**Bryan Min; A17153124**\
+**January, 26, 2022**
 
