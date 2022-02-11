@@ -3,7 +3,7 @@
 **Bryan Min; A17153124**\
 **February 11, 2022**
 
-### Group Choice 1 - Streamline `ssh` Configuration
+### Streamlining `ssh` Configuration
 
 I created a custom nickname to the ieng6 server at ucsd. I made the nickname to be `cse15l`. When I went into `.ssh/`, I did not have a config file, so I created it using the command `vim config`.
 
