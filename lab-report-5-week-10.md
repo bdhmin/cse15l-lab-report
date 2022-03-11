@@ -18,12 +18,12 @@ File: 498.md
 MarkdownParse Result:
 `[]`
 
-CommonMark Result:
+Our Implementation Result:
 `[foo(and(bar)]`
 
-CommonMark will parse strings inside `< >` as links, so when the `[]()` is found through parse, it seems as though CommonMark is omitting `< >`. 
+We will parse strings inside `( )` since we only look for the next closing parentheses, so when the `[]()` is found through parse, it seems as though we do not consider the opening parentheses that are formed 
 
-It appears that CommonMark as different rules when parsing links, as it considers other ways to create links. This would probably take removing the rule to consider the `< >`, which will be a lot of code.
+This will require some sort of way to keep track of all opening braces so those opening braces are not a part of a string that is supposed to be a part of the link.
 
 ### CommonMark Spec Test 2
 
@@ -35,10 +35,10 @@ File: 577.md
 MarkdownParse Result:
 `[train.jpg]`
 
-CommonMark Result:
+Our Implementation Result:
 `[]`
 
-The string in the md file is supposed to be an image, so CommonMark does not parse the string to a link. However, MarkdownParse falsely identifies the string as a link, missing the `!`.
+The string in the md file is supposed to be an image, so we do not parse the string to a link. However, MarkdownParse falsely identifies the string as a link, missing the `!`.
 
 This will require checking the index before finding `[`, but also making sure the index of `[` is not 0, since 0 - 1 = -1—this can result in an error.
 
