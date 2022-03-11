@@ -5,7 +5,7 @@
 
 ### Finding the files that don't match
 
-I created a new method, `getLinks2()`, which is the CommonMark parsing implementation and kept the `getLinks()` function the same. I then read the files in both ways, and checked if the two Arraylists were not equal. If they were not, I printed the file's filename and the contents of both results.
+I created a new method, `getLinks2()`, which is our parsing implementation and kept the `getLinks()` function the same. I then read the files in both ways, and checked if the two Arraylists were not equal. If they were not, I printed the file's filename and the contents of both results.
 
 
 ### CommonMark Spec Test 1
